@@ -1,0 +1,69 @@
+@font-face{
+    font-family: "NotoSans";
+    src: url('../fonts/notosans.ttf');
+}
+@font-face{
+    font-family: "NotoSans Bold";
+    src: url('../fonts/notosansbold.ttf');
+}
+@font-face{
+    font-family: "AlegreyaSans Bold";
+    src: url('../fonts/Alegreyasansbold.ttf');
+}
+
+.firstline{
+    display:inline;
+}
+.block{
+    display: -webkit-box;
+    margin-top: 45px;
+    margin-bottom: 18px;
+}
+.email{
+    margin-left: 67px;
+    font-family: 'Notosans';
+    font-size: 14px;
+}
+.email::before{
+    content: url('../img/mail.png');
+    margin-right: 4px;
+}
+.address::before{
+    content: url('../img/geo.png');
+    margin-right: 4px;
+}
+.phone::before{
+    content: url('../img/phone.png');
+    margin-right: 4px;
+}
+.address{
+    display:flex;
+    font-family: 'Notosans';
+    font-size: 14px;
+}
+.phone{
+    font-family: 'Notosans';
+    font-size: 14px;
+}
+
+.text-logo{
+    display:inline-block;
+    font-family: 'AlegreyaSans Bold';
+    font-size:16px;
+}  
+.img-logo{
+    margin-top: 15px;
+    margin-left: 27px;
+}
+.get_button{
+    display: inline-block;
+    text-align: center;
+    padding: 15px 24px;
+    background-color: rgb(1, 84, 35);
+    font-family: 'NotoSans Bold';
+    color:white;
+    margin-top: 53px;
+    font-size: 14px;
+    margin-right: 8px;
+}
+  
