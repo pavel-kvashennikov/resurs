@@ -1,5 +1,6 @@
 @font-face{
     font-family: "NotoSans";
+    color:rgb(52,52,52);
     src: url('../fonts/notosans.ttf');
 }
 @font-face{
@@ -10,7 +11,18 @@
     font-family: "AlegreyaSans Bold";
     src: url('../fonts/Alegreyasansbold.ttf');
 }
+@font-face{
+    font-family: "FontAwesome5FreeSolid";
+    src: url('../fonts/FontAwesome5FreeSolid.otf');
+}
+@font-face{
+    font-family: "OpenSans";
+    src: url('../fonts/opensans.ttf');
+}
 
+.inline{
+    display: flex;
+}
 .firstline{
     display:inline;
 }
@@ -66,4 +78,161 @@
     font-size: 14px;
     margin-right: 8px;
 }
-  
+
+.first_block_text{
+    font-family: 'NotoSans Bold';
+    text-transform: uppercase;
+    font-size: 34px;
+}
+
+.navigation span{
+    font-family: 'NotoSans Bold';
+    font-size: 16px;
+}
+.first_block{
+    display: flex;
+    background:rgb(244,244,244);
+}
+
+.second_block{
+    display: flex;
+    margin-top: 90px;
+}
+
+.third_block{
+    display:block;
+    background:rgb(244,244,244);
+    margin-top: 75px;
+    padding-bottom: 60px;
+}
+.fourth_block{
+    display:block;
+    margin-bottom: 100px;
+}
+
+.first_block_list ul{
+   padding-left:0px;
+}
+
+.first_block_list li{
+    list-style-type: none;
+}
+
+.first_block_list li::before{
+    content:url('../img/check.png');
+}
+
+.first_block_img{
+    width: 945px;
+}
+
+.second_block_head span{
+    font-family: 'NotoSans Bold';
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.second_block_text{
+    margin-top: 40px;
+}
+
+.third_block_head{
+    width:100%;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'NotoSans Bold'
+}
+
+.third_block_head span{
+    margin: 38px 0px;
+    display:inline-block;
+}
+
+.blocks{
+    display: -webkit-box;
+}
+
+/*to do!!!!!!*/
+.blocks img{
+    width:100%;
+}
+
+.thrid_block_text{
+    font-family: 'OpenSans';
+    font-size: 16px;
+
+}
+
+.fourth_block_text{
+    margin: 38px 0px;
+    display:inline-block;
+
+}
+
+footer{
+    background: rgb(244,244,244)
+}
+
+.one{
+    padding-left: 0px;
+}
+.one li{
+    list-style-type: none;
+    font-family: 'NotoSans Bold';
+    text-transform: uppercase;
+    margin-bottom: 7px;
+}
+
+footer .email{
+    font-size: 16px;
+    margin-top: 8px;
+    margin-left: 0px;
+}
+
+footer .phone{
+    font-size: 16px;
+    margin-top: 8px;
+    margin-left: 0px;
+}
+
+footer .address{
+    font-size: 16px;
+    margin-left: 0px;
+}
+
+footer .address p{
+    margin-bottom: 0px;
+}
+
+.foot{
+    padding-top: 55px;
+}
+
+
+
+footer .email::before{
+    content: url('../img/mailfoot.png');
+    margin-right: 20px;
+    margin-top: 20px;
+}
+footer .address::before{
+    content: url('../img/geofoot.png');
+    margin-right: 20px;
+    margin-top: 14px;
+}
+footer .phone::before{
+    content: url('../img/phonefoot.png');
+    margin-right: 20px;
+}
+
+footer .get_button{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-family: 'NotoSans'
+}
+
+.foot_text{
+    font-family: 'NotoSans';
+    color:rgb(52,52,52);
+    line-height: 16px;
+}
